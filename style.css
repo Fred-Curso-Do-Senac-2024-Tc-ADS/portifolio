@@ -1,0 +1,122 @@
+/*
+cor de fonte: #282929
+cor de fonte: #bdc1ca
+fonte: "fredoka", sans-serif
+
+
+*/
+
+/*removendo os estilos padrao do navegador */
+h1, h2, p, ul, li, a:-wedkit-any-link {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: unset;
+
+}
+
+body {
+
+    font-family: "fredoka", sans-serif;
+    background-color: #282929;
+    color: #bdc1ca;
+    text-align: center;
+
+}
+
+main {
+    width: 30vw;
+    margin: 0 auto;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+table {
+    padding: 10px;
+    margin: auto;
+    
+
+}
+
+figure {
+    max-width: 160px;
+    max-height: 160px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+figure img {
+    width: 100%;
+    border-radius: 160%;
+}
+
+
+
+section {
+    padding: 20px 0;
+}
+
+
+h1 {
+    margin-bottom: 10px;
+    text-align: center
+    
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    grid-gap: 10px;
+    flex-wrap: wrap;
+    /*justify-content: center;*/
+    justify-content: space-between;
+
+
+}
+.card {
+    border: 1px solid #bdc1ca;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    grid-gap: 10px;
+    
+
+}
+
+.mdi {
+    font-size: 30px;
+}
+
+
+@media (max-width: 390px) {
+    .card-container {
+        background-color: aqua;
+        flex-wrap: wrap;
+        main {
+            width: 94vw;
+
+    }
+    
+    
+    }
+    /* body {
+        background-color: blue;
+   */
+} 
+
+
