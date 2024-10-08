@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    
+}
+
+.card-container .card img {
+    width: 100px;
+    max-width: 100px;
+
+}
+
+.card-container .card img {
+   /* background-origin: 1px solid black; /*temporario */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 12 px 12 px #eb8686(0,0,0,0.1);
+} 
+
+
+
