@@ -1,0 +1,70 @@
+body {
+    font-family: "nunito", sans-serif;
+ 
+
+    
+}
+
+main {
+    padding: 2rem;
+
+}
+
+.form {
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+
+@media (max-width: 960px) {
+    .form {
+        width: 60%;
+    }
+    
+}
+
+@media (max-width: 460px) {
+    .form {
+        width: 100%;
+    }
+    
+}
+
+
+.form-header {
+    margin-bottom: center;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+
+.form-content {
+
+}
+
+
+.form-action {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+
+.form-input.required:: label {
+    content: "*";
+
+}
+
+.form-input label {
+    font-size: 0.75rem;
+    font-weight: bold;
+}
