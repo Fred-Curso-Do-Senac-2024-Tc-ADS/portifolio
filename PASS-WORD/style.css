@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.password {
+    position: relative;
+    width: fit-content; /* Ajusta o tamanho do contêiner ao conteúdo */
+}
+
+#password {
+    padding-right: 40px; /* Espaço para o ícone do olho */
+}
+
+#password-eye {
+    position: absolute;
+    right: 10px; /* Ajusta a posição do ícone do olho */
+    top: 50%; /* Centraliza verticalmente */
+    transform: translateY(-50%); /* Ajusta o alinhamento vertical */
+    cursor: pointer; /* Adiciona um cursor de ponteiro */
+}
