@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Calculadora</title>
+</head>
+<body>
+    <h1>Minha Calculadora</h1>
+
+    Primeiro Numero<br/>
+    <input id="n1" type="number" /><br/>
+
+    Segundo Numero<br/>
+    <input id="n2" type="number" /><br/>
+
+    <button onclick="somar()">Somar</button>
+    <button onclick="subtrair()">Subtrair</button>
+    <button onclick="multiplicar()">Multiplicar</button>
+    <button onclick="dividir()">Dividir</button>
+    <br/> <br/>
+
+    Resultado e <span></span>
+
+    <script>
+        var n1 = document.querySelector('#n1')
+        var n2 = document.querySelector('#n2')
+        var Resultado = document.querySelector('span')
+
+        function somar() {
+            resultado.innerHTML = parseInt(n1.value) + parseInt(n2.value)
+        }
+
+        function Subtrair() {
+            resultado.innerHTML = parseInt(n1.value) - parseInt(n2.value)
+        }
+
+        function Multiplicar() {
+            resultado.innerHTML = parseInt(n1.value) * parseInt(n2.value)
+
+        }
+
+        function Dividir() {
+            resultado.innerHTML = parseInt(n1.value) / parseInt(n2.value)
+        }
+    </script>
+    
+</body>
+</html>
+
+<!--1. Faça um algoritmo que receba dois números e ao final mostre a soma, subtração,
+multiplicação e a divisão dos números lidos.-->
