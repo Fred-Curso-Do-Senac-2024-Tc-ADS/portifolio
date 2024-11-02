@@ -1,0 +1,13 @@
+select insert into filme (titulo, ano, descricao) values ('Venom: A Última Rodada' 1h 50min, 'Ação, Comédia, Fantasia');
+select insert into filme (titulo, ano, descricao) values ('Robô Selvagem' 1h 42min, 'Aventura, Animação,');
+select insert into filme (titulo, ano, descricao) values ('Terrifier 3' 2h 05min , 'Terror');
+select insert into filme (titulo, ano, descricao) values ('A Forja - O Poder da Transformação' 2h 03min, 'Drama');
+select insert into filme (titulo, ano, descricao) values ('Som da Esperança - A História de Possum Trot' 2h 15min , 'Drama');
+select insert into filme (titulo, ano, descricao) values ('Sorria 2' 2h 12min, 'Terror');
+select insert into filme (titulo, ano, descricao) values ('Todo Tempo Que Temos' 1h 44min, 'Comédia dramática,');
+select insert into filme (titulo, ano, descricao) values ('Tudo Por Um Pop Star 2'  1h 14min, 'Comédia, Família, Musical');
+select insert into filme (titulo, ano, descricao) values ('Megalópolis'  2h 18min, 'Drama, Ficção Científica');
+select insert into filme (titulo, ano, descricao) values ('Coringa: Delírio a Dois'  2h 19min, ' Ação, Drama, Romance');
+select insert into filme (titulo, ano, descricao) values ('Os Três Mosqueteiros: D’Artagnan' 2h 01min, 'Aventura, Histórico');
+select insert into filme (titulo, ano, descricao) values ('Não Solte!' 1h 42min , 'Terror, Suspense');
+select insert into filme (titulo, ano, descricao) values ('Perfekta: Uma Aventura da Escola de Gênios' 1h 32min , 'Aventura, Família, Ficção');
