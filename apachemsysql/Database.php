@@ -9,6 +9,8 @@ class Database {
 
     $private = conn;
 
+
+    //responsavel por criar a conexao do databese
     public function __construct($host, $port, $username, $password, $db) {
 
         $this->port = $port;
