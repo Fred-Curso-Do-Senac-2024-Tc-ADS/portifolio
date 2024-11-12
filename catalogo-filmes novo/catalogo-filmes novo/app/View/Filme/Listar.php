@@ -76,6 +76,21 @@ $filmes = $usuarioModel->findAll();
         /* se o php retornar mensagem -> Erro ao Exclui
         se o php retornar mensagem -> sucesso -> o filme foi Excluido*/ 
 
+        const parent = new URLSearchParams(window.location.search)
+        const tipoMensagem = parametros.get("mensagem")
+
+        if (tipoMensagem === "sucesso") {
+            const Notificaticao =document.createElement("div")
+            Notificaticao.className = "notificacao"
+            Notificaticao.innerHTML = "Operação realizada com sucesso"
+            document.getElementById('mensagen').innerHTML = '<h1>Excluir com sucesso</h1>'
+
+            document.body.appendChild(Notificaticao)
+        } else if (tipoMensagem === "erro") { 
+            document.getElementById('Mensagem').innerHTML = '<h1>Error ao Excluir</h1>'
+    
+        }
+
         document.getElementById('mensagem').innerHTML = '<h1>RRO</H1>'
     </script>
 </body>
