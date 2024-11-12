@@ -50,6 +50,7 @@ class Filme {
 
         $stmt = $this->conn->prepare($query);
         $stmt->blindParam(":id", $id, PDO::PARAM_INT);
+        $stmt->execute();
 
         return $stmt->rowCount() > 0;
 

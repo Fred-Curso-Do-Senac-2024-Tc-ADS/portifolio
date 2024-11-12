@@ -71,5 +71,12 @@ $filmes = $usuarioModel->findAll();
             <?php } ?>
         </tbody>
     </table>
+
+    <script>
+        /* se o php retornar mensagem -> Erro ao Exclui
+        se o php retornar mensagem -> sucesso -> o filme foi Excluido*/ 
+
+        document.getElementById('mensagem').innerHTML = '<h1>RRO</H1>'
+    </script>
 </body>
 </html>
