@@ -1,0 +1,87 @@
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet");   
+        .table {
+            tr, td, th {
+                border: 1px solid;
+            }
+        }
+
+        .notificacao {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            color: #fff;
+            padding: 16px;
+
+            &.sucesso {
+                background-color: #4caf50;
+            }
+
+            &.erro {
+                background-color: #ff4d4d;
+            }
+        }
+</style>
+
+
+.acao {
+        display: flex;
+        justify-content: end;
+
+
+
+a {
+            text-decoration: unset;
+            color: unset;
+        }
+
+button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+
+.table {
+        width: 100%;
+        border-color: #cdd0f3b2;
+        border-collapse: collapse;
+
+        thead, th, tbody, tr, td {
+            border-color: inherit;
+            border-style: solid;
+            border-width: 0;
+
+
+        }
+td, th {
+        border-bottom-width: 2px;
+        padding: 0,5rem;
+        text-align: left;
+
+    }    
+tbody {
+    tr {
+
+        &:hover {
+            background-color: #cdd0f3b2;
+
+        }
+        /*seleciona toda a linha tabela que for even = par odd = impar*/
+        &:nth-child(even) {
+
+            background-color: #cdd0f3;
+
+        }
+        
+    }
+    }
+
+
+
+
+}
+
+   
